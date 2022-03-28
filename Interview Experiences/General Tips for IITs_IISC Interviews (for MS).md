@@ -1,5 +1,6 @@
 **General Tips for IITs/IISC Interviews (for MS)**
 
+
 1. If you are asked about your **research interests** , it&#39;s always safe to say that Sir, I have not yet figured out where my research interest lies, I would like to try new things during MS and explore my interests.
 2. There would be many topics for which we prepare by seeing videos on Youtube. For answering gate questions, **they may be enough for GATE, but for interviews in IIT, unless and until you know a topic thoroughly, don&#39;t claim that you know something.**
 3. If the interviewer asks tell me **something about yourself,** think well, and say because those words which you say will **drive your interview.**
@@ -20,3 +21,6 @@
 18. Intro should be short. They don&#39;t have much time, You will get only 20 min to prove yourself.
 19. Check the Teaching sections of the interviewer before you know the name.
 20. If you don&#39;t know something and you are feeling that they might jump into that topic, then say beforehand that I am good at this &amp; this, but not with this.
+
+Sources: My experiences, might be some youtube videos, Blogs which I saw while preparing for interviews.
+
