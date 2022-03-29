@@ -9,5 +9,5 @@
 
 
 Resources:
-Linear Algebra: 3blue1brown LA series, MIT Gilbert Strang Sir's Lectures on LA
+Linear Algebra: 3blue1brown LA series, MIT Gilbert Strang Sir's Lectures on LA.
 Probability: John Tsitsiklis Sir's Lecture.
