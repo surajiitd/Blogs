@@ -32,7 +32,7 @@ MSR candidates are sandwiched b/w them on that day.
 
 Both Professors were there under which I had applied (Prof. Mausam and Prof. Chetan Arora). Some others were also there. Total 3 profs. had asked me questions.
 
-Let Mausam Sir-\&gt;Im, Chetan Arora Sir-\&gt; Ic, Sayan Ranu Sir-\&gt;Is
+Let Mausam Sir: Im, Chetan Arora Sir: Ic, Sayan Ranu Sir: Is
 
 Is: one of the professors read my details.( name, cgpa,etc ) and asked what position do you stand in your class.
 

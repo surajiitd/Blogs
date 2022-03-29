@@ -150,4 +150,4 @@ Me: thank you so much sir.
 
 I was very happy after this interview.
 
-Results: Selected :)
+Result: Selected :)
