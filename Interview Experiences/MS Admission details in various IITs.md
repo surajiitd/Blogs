@@ -1,6 +1,7 @@
 ## **MS Admission details in various IITs**
 
 - Given interviews: IISC, IITB, IITM, IITD(2), IITH(2)
+	(Eligible for all above at GATE score: 731)
 
 - Taken from Direct Gate scores: IITK
 
