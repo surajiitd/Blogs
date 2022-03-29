@@ -14,7 +14,7 @@ My GATE score: 731 general. (rank 510)
 - Questions were mostly on arrays and matrices. (medium level questions)
 - Tip: all ques were of equal marks, you could choose easy questions first.
 
-I have done 3.5 questions out of that.
+I have done 3.5 questions out of that. (Some of my friends did 2.5, so cutoff was around 2.5 questions)
 
 Then **26 candidates** were shortlisted for interview. I was one of them.
 
@@ -30,13 +30,13 @@ MSR candidates are sandwiched b/w them on that day.
 
 **Round 2: Online Interview (9th June)**
 
-Both Professors were there under which I had applied (Prof. Mausam and Prof. Chetan Arora). Some others were also there. Total 3 profs. had asked me questions.
+Both Professors were there under which I had applied (Prof. Mausam and Prof. Chetan Arora). Some others were also there. But total 3 profs. had asked me questions.
 
 Let Mausam Sir: Im, Chetan Arora Sir: Ic, Sayan Ranu Sir: Is
 
-Is: one of the professors read my details.( name, cgpa,etc ) and asked what position do you stand in your class.
+Is: one of the professors read my details.( name, cgpa,etc ) and asked what position do you stand in your class. (I replied)
 
-Another prof asked for my college name.
+Another prof asked for my college name. (I replied)
 
 Is: As you have just done your B.Tech. what have you prepared like CS subjects, etc
 
@@ -60,7 +60,7 @@ Me: 2^n.
 
 Im: How?
 
-Me: there are 2 choices for every spice whether to take it or not. So 2\*2\*2...n tImes. = 2^n.
+Me: there are 2 choices for every spice whether to take it or not. So 2\*2\*2...n times. = 2^n.
 
 Im; Suppose I am asking for a tea having 3 spices. What is the probability that the tea has elaichi in it?
 
@@ -78,7 +78,7 @@ Case 2: both are the same. No order.
 
 So which case have you taken? and how you will calc for the other case?
 
-( I have said opposite earlier(due to nervousness), then he tried to take me to the right result by asking some basic questions like: what is the no of ways to choose r objects from n. And what is it if we consider the order of selecting also……...then I interrupted hIm and said that now I got it, Sir)
+( I have said opposite earlier(due to nervousness), then Sir tried to take me to the right result by asking some basic questions like: what is the no of ways to choose r objects from n. And what is it if we consider the order of selecting also……...then I interrupted hIm and said that now I got it, Sir)
 
 Me: I have said wrong. 1/n would be the probability for the case where we consider the order.
 
