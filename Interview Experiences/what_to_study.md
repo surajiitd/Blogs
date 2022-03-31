@@ -2,7 +2,7 @@
 # My Preparation for Interviews
 
 - Prepare 1,2 GATE Subjects v. well.
-- Probability, Linear Algebra
+- Probability, Linear Algebra (both are imp. if need AI programme)
 - Coding
 - GATE level preparation for written test(1st round).
 - Rest depend on your background.
