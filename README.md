@@ -11,5 +11,6 @@
     - [General Tips for IITs_IISC Interviews (for MS)](https://github.com/surajiitd/Blogs/blob/master/Interview%20Experiences/General%20Tips%20for%20IITs_IISC%20Interviews%20(for%20MS).md)
     - [MS Admission details in various IITs](https://github.com/surajiitd/Blogs/blob/master/Interview%20Experiences/MS%20Admission%20details%20in%20various%20IITs.md)
     - [what to study for IIT/IISc Interview](https://github.com/surajiitd/Blogs/blob/master/Interview%20Experiences/what_to_study.md)
+    - [Youtube VIDEO](https://www.youtube.com/watch?v=jXAdqvUvnKQ)
 
 ---
