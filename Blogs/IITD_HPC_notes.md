@@ -1,20 +1,20 @@
 ## IIT Delhi HPC commands/notes
 
-`ssh <username>@<remote server hostname>`  
+- `ssh <username>@<remote server hostname>`  
 ie:  
 `ssh <IITD kerberos id>@hpc.iitd.ac.in`  
 `ssh -X <IITD kerberos id>@hpc.iitd.ac.in`
 
-only one time env setup:
+- only one time env setup:
 `source /home/apps/skeleton/oneTimeHPCAccountEnvSetup.sh`  
 
 
-#ssh to different login node
-`ssh login01 # CPU login nodes 01,02,03,04`  
-`ssh klogin01 # GPU login nodes 01,02`
+- ssh to different login node
+    `ssh login01 # CPU login nodes 01,02,03,04`  
+    `ssh klogin01 # GPU login nodes 01,02`
 
 
-#some imp sommands: `pwd, ls, mkdir, cd, cat, cp, mv, rm, rmdir, man, top, logout, echo, scp`  
+- some imp sommands: `pwd, ls, mkdir, cd, cat, cp, mv, rm, rmdir, man, top, logout, echo, scp`  
 `pwd`  
 op-> `/home/cse/msr/csy217550`  
 `top`  
