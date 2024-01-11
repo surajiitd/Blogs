@@ -8,4 +8,4 @@ fi
 
 git add .
 git commit -m "$commit_msg"
-git push origin main
+git push origin master
