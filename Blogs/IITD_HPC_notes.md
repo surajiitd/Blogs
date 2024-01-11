@@ -1,32 +1,32 @@
-ssh <username>@<remote server hostname>
+`ssh <username>@<remote server hostname>`
 ie:
-ssh <IITD kerberos id>@hpc.iitd.ac.in  
-ssh -X <IITD kerberos id>@hpc.iitd.ac.in
+`ssh <IITD kerberos id>@hpc.iitd.ac.in  `
+`ssh -X <IITD kerberos id>@hpc.iitd.ac.in`
 
 only one time env setup:
-source /home/apps/skeleton/oneTimeHPCAccountEnvSetup.sh
+`source /home/apps/skeleton/oneTimeHPCAccountEnvSetup.sh`
 
 
 #ssh to different login node
-ssh login01 # CPU login nodes 01,02,03,04
-ssh klogin01 # GPU login nodes 01,02
+`ssh login01 # CPU login nodes 01,02,03,04`
+`ssh klogin01 # GPU login nodes 01,02`
 
 
-#some imp sommands: pwd, ls, mkdir, cd, cat, cp, mv, rm, rmdir, man, top, logout, echo, scp
-pwd
-op-> /home/cse/msr/csy217550
-top
-top -u $USER #all the processes run by my user
+#some imp sommands: `pwd, ls, mkdir, cd, cat, cp, mv, rm, rmdir, man, top, logout, echo, scp`
+`pwd`
+op-> `/home/cse/msr/csy217550`
+`top`
+`top -u $USER #all the processes run by my user`
 
-echo $USER  #print this env variable
-op-> csy217550
+`echo $USER  #print this env variable`
+op-> `csy217550`
 
 # copy something from local machine to HPC & vice versa
 # -r for copying directories
-scp -r <source path on local machine> <iitd kerberos id>@hpc.iitd.ac.in:<destination path on hpc>
+`scp -r <source path on local machine> <iitd kerberos id>@hpc.iitd.ac.in:<destination path on hpc>`
 
 
-scp -r skapil.vfaculty@hpc.iitd.ac.in:/home/cc/vfaculty/skapil.vfaculty/source myfolder
+`scp -r bkapil.vfaculty@hpc.iitd.ac.in:/home/cc/vfaculty/skapil.vfaculty/source myfolder`
 
 > first I opened a new terminal and be on my PC instead of HPC,(becoz being on HPC, I don't know how to refer to my local computer)   (then without ssh do this:)
 `spatni@IITD:~/git Repos/Research Project/HPC$ scp -r /home/spatni/git\ Repos/Research\ Project/HPC/scripts_for_net csy217550@hpc.iitd.ac.in:/home/cse/msr/csy217550/`
@@ -34,34 +34,34 @@ scp -r skapil.vfaculty@hpc.iitd.ac.in:/home/cc/vfaculty/skapil.vfaculty/source m
 
 
 Command to Check Disk Quota Assigned to You
-➔ lfs quota -hu $USER /home
-➔ lfs quota -hu $USER /scratch
+➔ `lfs quota -hu $USER /home`
+➔ `lfs quota -hu $USER /scratch`
 
 
-amgr login
-amgr ls project
+`amgr login`
+`amgr ls project`
 #### departmental project
-amgr checkbalance project -n <Project name>
-amgr checkbalance project -n cse 
+`amgr checkbalance project -n <Project name>`
+`amgr checkbalance project -n cse `
 
 #### non-departmental project
-amgr checkbalance project -n <Project name> -p global
-amgr checkbalance project -n col774 -p global
+`amgr checkbalance project -n <Project name> -p global`
+`amgr checkbalance project -n col774 -p global`
 
 
 ## MODULES
 > you can install your softwares in your home. you can do whatever you want there. But u can load the already installed modules from hpc as well.
-➔ module avail
+➔ `module avail`
 list of modules available on PADUM
-➔ module -i keyword <keyword>
+➔ `module -i keyword <keyword>`
 list all module files having provided keyword
-➔ module load <module name/s>
+➔ `module load <module name/s>`
 load specific module/s in environment
-➔ module list
+➔ `module list`
 list of modules already loaded in environment
-➔ module unload <module name/s>
+➔ `module unload <module name/s>`
 unload specific module/s from environment
-➔ module purge
+➔ `module purge`
 Unload all module/s from environment 
 
 NOTE: modules which u are loading in your current working environment should not be conflicting each other.
@@ -71,10 +71,10 @@ NOTE: modules which u are loading in your current working environment should not
 ### Job, Submission, Types, Monitor/Control ?
 HOW TO SUBMIT :
 1. INTERACTIVE JOB SUBMISSION
-'qsub -I <qsub options>'
+`qsub -I <qsub options>`
 2. BATCH JOB SUBMISSION
-'qsub <batch script>'
-'qsub <qsub options> <batch script>'
+`qsub <batch script>`
+`qsub <qsub options> <batch script>`
 
 
 ## Some points:
@@ -111,10 +111,10 @@ if you close the terminal, your interactive jobs will get terminated.
 for ncpus=24, prefer haswell nodes becoz if u do skylake then 20cores will be in one socket and 4 might be on different socket, that will degrade your application's performance. 
 
 
-[user1@login02]$ export http_proxy=10.10.78.21:3128
-[user1@login02]$ export https_proxy=10.10.78.21:3128
+`[user1@login02]$ export http_proxy=10.10.78.21:3128`
+`[user1@login02]$ export https_proxy=10.10.78.21:3128`
 the above 2 lines means that from now on send all request for internet to Proxy server(proxy21.iitd.ac.in:3128 or 10.10.78.21:3128)
 
-qsub -I -P cse -lselect=1:ncpus=1:ngpus=1:mem=32G:centos=skylake -l walltime=1:00:00
+`qsub -I -P cse -lselect=1:ncpus=1:ngpus=1:mem=32G:centos=skylake -l walltime=1:00:00`
 
 
