@@ -21,8 +21,8 @@ op-> `/home/cse/msr/csy217550`
 `echo $USER  #print this env variable`
 op-> `csy217550`
 
-# copy something from local machine to HPC & vice versa
-# -r for copying directories
+*copy something from local machine to HPC & vice versa*
+*-r for copying directories*
 `scp -r <source path on local machine> <iitd kerberos id>@hpc.iitd.ac.in:<destination path on hpc>`
 
 
