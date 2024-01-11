@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -n "$1" ]; then
+    commit_msg="$1"
+else
+    commit_msg="update"
+fi
+
+git add .
+git commit -m "$commit_msg"
+git push origin main

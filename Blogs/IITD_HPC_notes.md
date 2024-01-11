@@ -30,7 +30,7 @@ op-> `csy217550`
 
 `scp -r bkapil.vfaculty@hpc.iitd.ac.in:/home/cc/vfaculty/skapil.vfaculty/source myfolder`  
 
-> first I opened a new terminal and be on my PC instead of HPC,(becoz being on HPC, I don't know how to refer to my local computer)   (then without ssh do this:)  
+<!-- first I opened a new terminal and be on my PC instead of HPC,(becoz being on HPC, I don't know how to refer to my local computer)   (then without ssh do this:)   -->
 `spatni@IITD:~/git Repos/Research Project/HPC$ scp -r /home/spatni/git\ Repos/Research\ Project/HPC/scripts_for_net csy217550@hpc.iitd.ac.in:/home/cse/msr/csy217550/`
 
 
@@ -52,7 +52,7 @@ Command to Check Disk Quota Assigned to You
 
 
 ## MODULES  
-> you can install your softwares in your home. you can do whatever you want there. But u can load the already installed modules from hpc as well.
+<!-- you can install your softwares in your home. you can do whatever you want there. But u can load the already installed modules from hpc as well. -->
 - `module avail`  
 list of modules available on PADUM  
 - `module -i keyword <keyword>`  
