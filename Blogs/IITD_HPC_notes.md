@@ -74,7 +74,7 @@ NOTE: modules which u are loading in your current working environment should not
 
 ---
 ## Nodes 
-- ![HPC Nodes Description](./hpc_nodes_description.md)
+- ![HPC Nodes Description](./hpc_nodes_description.png)
 ---
 
 ## PBS
