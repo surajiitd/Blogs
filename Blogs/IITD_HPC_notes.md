@@ -86,6 +86,7 @@ HOW TO SUBMIT :
 `qsub <batch script>`  
 `qsub <qsub options> <batch script>`
 `qsub -P <project_id> -q <standard/low/high> -lselect=1:ncpus=x:ngpus=y -lwalltime=10:00:00 -I`
+- lwalltime is in `HH:MM:SS`.
 - Haswell / Skylake nodes:
     `qsub -P col774 -q standard -lselect=1:ncpus=4:ngpus=1:centos=haswell/skylake -lwalltime=168:00:00 -I`
 - Icelake nodes:
