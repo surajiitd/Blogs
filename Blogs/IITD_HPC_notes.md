@@ -38,6 +38,10 @@ op-> `csy217550`
 Command to Check Disk Quota Assigned to You  
 - `lfs quota -hu $USER /home`  
 - `lfs quota -hu $USER /scratch`  
+- $HOME: 100 GB → Permanent Storage
+- $SCRATCH: 25TB → Temporary : If storage becomes low data may be deleted without prior notice.
+- Use $HOME for storing codes etc.
+- Use $SCRATCH for model checkpoints, datasets etc.
 
 
 `amgr login`  
@@ -68,7 +72,11 @@ Unload all module/s from environment
 
 NOTE: modules which u are loading in your current working environment should not be conflicting each other.
 
-***
+---
+## Nodes 
+- [image](./hpc_nodes_description.md)
+---
+
 ## PBS
 ### Job, Submission, Types, Monitor/Control ?
 HOW TO SUBMIT :  
@@ -77,6 +85,14 @@ HOW TO SUBMIT :
 2. BATCH JOB SUBMISSION  
 `qsub <batch script>`  
 `qsub <qsub options> <batch script>`
+`qsub -P <project_id> -q <standard/low/high> -lselect=1:ncpus=x:ngpus=y -lwalltime=10:00:00 -I`
+- Haswell / Skylake nodes:
+    `qsub -P col774 -q standard -lselect=1:ncpus=4:ngpus=1:centos=haswell/skylake -lwalltime=168:00:00 -I`
+- Icelake nodes:
+    `qsub -P col774 -q test -lselect=1:ncpus=4:ngpus=1 -lwalltime=168:00:00 -I`
+- Amdepyc nodes:
+    `qsub -P <department project> -q scai_lowq -lselect=1:ncpus=4:ngpus=1 -lwalltime=24:00:00 -I`
+
 
 
 ## Some points:
