@@ -129,11 +129,13 @@ if you close the terminal, your interactive jobs will get terminated.
 - haswell = 24cores(2x12) , skylake = 40cores( 2x20)  
 for ncpus=24, prefer haswell nodes becoz if u do skylake then 20cores will be in one socket and 4 might be on different socket, that will degrade your application's performance. 
 
+### Internet in any IIT-D Macnines/Server/HPC.
+- run proxy.sh to login to your proxy server `./src/proxy.sh` (edit the proxyXX according to your degree in proxy.sh first).
+- set the appropriate proxy server according to your course: Note XX: is the degree id (replace xx with your degree)
+`{'btech':22,'dual':62,'diit':21,'faculty':82,'integrated':21,'mtech':62,'phd':61,'retfaculty':82,'staff':21,'irdstaff':21,'mba':21,'mdes':21,'msc':21,'msr':21,'pgdip':21}`
+- Now in every terminal where you want to use the internet, you need to set these environment varibles (`http_proxy, https_proxy`) to the proxy server in which you have logged in.  
+    Run `source src/set.sh` to set the variables. (again edit the proxyXX according to your degree in set.sh first).
+- the above 2 lines means that from now on send all request for internet to Proxy server(proxy21.iitd.ac.in:3128 or 10.10.78.21:3128)  
 
-`[user1@login02]$ export http_proxy=10.10.78.21:3128`  
-`[user1@login02]$ export https_proxy=10.10.78.21:3128`  
-the above 2 lines means that from now on send all request for internet to Proxy server(proxy21.iitd.ac.in:3128 or 10.10.78.21:3128)  
-
-`qsub -I -P cse -lselect=1:ncpus=1:ngpus=1:mem=32G:centos=skylake -l walltime=1:00:00`
 
 
