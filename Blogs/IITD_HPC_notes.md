@@ -118,6 +118,15 @@ Total gpus: 4*1
 - show my all jobs, and their states:  
 `qstat -u $USER`
 
+- To check reason PBS report for your job, use command :  
+`qstat -saw [JobID]` or `qstat -saw` to see for all users.
+
+- To check estimated start time of your job, use command :  
+`qstat -awT [JobID] ` or `qstat -awT` to see for all users.
+
+- show all submitted jobs
+`qstat -saw `
+
 - for interective jobs: 
 all outputs will be on terminal  
 u can't hold a running job  
