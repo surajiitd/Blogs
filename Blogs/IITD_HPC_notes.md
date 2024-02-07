@@ -112,8 +112,10 @@ meaning of `-lselect=4:ncpus=12:ngpus=1:centos=skylake`
 Total cores : 4*12  
 Total gpus: 4*1  
 
+
 - full details of a job:  
-`qstat -f <jobid>`
+`qstat -f <jobid>` ex: `qstat -f 21994.pbshpc`.
+- **(v. useful after setting the process on queue, just run this to check the "estimated start time") and also if the job request is not valid, then it'll tell there**.
 
 - show my all jobs, and their states:  
 `qstat -u $USER`
