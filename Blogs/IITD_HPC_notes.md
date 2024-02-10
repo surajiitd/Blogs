@@ -113,9 +113,9 @@ Total cores : 4*12
 Total gpus: 4*1  
 
 
-- full details of a job:  
+- full details of a job:  **(v. useful after setting the process on queue, just run this to check the "estimated start time") and also if your job request is not valid, then it'll mention that.**  
 `qstat -f <jobid>` ex: `qstat -f 21994.pbshpc`.
-- **(v. useful after setting the process on queue, just run this to check the "estimated start time") and also if the job request is not valid, then it'll tell there**.
+
 
 - show my all jobs, and their states:  
 `qstat -u $USER`
