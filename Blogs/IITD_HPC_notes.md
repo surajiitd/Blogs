@@ -87,10 +87,12 @@ HOW TO SUBMIT :
 `qsub <qsub options> <batch script>`
 `qsub -P <project_id> -q <standard/low/high> -lselect=1:ncpus=x:ngpus=y -lwalltime=10:00:00 -I`
 - lwalltime is in `HH:MM:SS`.
-- **Haswell / Skylake nodes:** (you can't run pytorch in haswell nodes)  
-    `qsub -P col774 -q standard -lselect=1:ncpus=4:ngpus=1:centos=haswell/skylake -lwalltime=168:00:00 -I`
-- **Icelake nodes:** 
-    `qsub -P col774 -q test -lselect=1:ncpus=4:ngpus=1:centos=icelake -lwalltime=168:00:00 -I`
+- **Haswell / Skylake nodes:**  
+    `qsub -P <department project> -q standard -lselect=1:ncpus=4:ngpus=1:centos=haswell/skylake -lwalltime=168:00:00 -I`
+    - You can't run pytorch in `haswell` nodes.
+    - For all nodes, `-q` can be `standard` or `high`.(there is no `low` queue since 2024).
+- **Icelake nodes:**  
+    `qsub -P <department project> -q high -lselect=1:ncpus=4:ngpus=1:centos=icelake -lwalltime=168:00:00 -I`
 - **Amdepyc nodes:**  
     `qsub -P <department project> -q scai_q -lselect=1:ncpus=4:ngpus=1:centos=amdepyc -lwalltime=24:00:00 -I`
     - The maximum walltime request for possible for "amdepyc" nodes is 24 hours.
