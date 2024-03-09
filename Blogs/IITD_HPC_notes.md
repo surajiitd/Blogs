@@ -1,4 +1,4 @@
-## IIT Delhi HPC commands/notes
+## Get Started with HPC at IIT Delhi: A Quick Guide to Commands and Notes
 
 - `ssh <username>@<remote server hostname>`  
 ie:  
@@ -35,7 +35,7 @@ op-> `csy217550`
 
 
 
-Command to Check Disk Quota Assigned to You  
+#### Command to Check Disk Quota Assigned to You  
 - `lfs quota -hu $USER /home`  
 - `lfs quota -hu $USER /scratch`  
 - $HOME: 100 GB → Permanent Storage
