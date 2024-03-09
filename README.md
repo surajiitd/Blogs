@@ -14,3 +14,5 @@
     - [Youtube VIDEO](https://www.youtube.com/watch?v=jXAdqvUvnKQ)
 
 ---
+- Misc:
+  - [Get Started with HPC at IIT Delhi: A Quick Guide to Commands and Notes](./Blogs/IITD_HPC_notes.md)
