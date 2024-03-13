@@ -1,4 +1,4 @@
-**Interview Experiences:**
+### Interview Experiences:
 
 - My IITs/IISc Interview Experiences for MS Admission for CSE/AI.
     - [IIT Delhi MSR(CSE)](https://github.com/surajiitd/Blogs/blob/master/Interview%20Experiences/IIT%20Delhi%20MSR(CSE)%20Interview.md)
@@ -16,5 +16,5 @@
     - [Qualcomm Interview Experience | AI/ML Engineer](./) (todo)
     - [Sony Japan Interview Experience | Research Engineer (Visual Recognition)](./) (todo)
 ---
-- Misc:
+### Misc:
   - [Get Started with HPC at IIT Delhi: A Quick Guide to Commands and Notes](./Blogs/IITD_HPC_notes.md)
